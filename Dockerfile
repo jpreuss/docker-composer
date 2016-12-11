@@ -1,6 +1,6 @@
 FROM jpreuss/php:noxdebug
 
-ENV COMPOSER_VERSION 1.2.1
+ENV COMPOSER_VERSION 1.2.4
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 		&& php composer-setup.php --filename=composer --install-dir=/bin --version=$COMPOSER_VERSION \ 
