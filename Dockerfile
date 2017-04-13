@@ -1,4 +1,4 @@
-FROM jpreuss/php:noxdebug
+FROM jpreuss/php:5.6-noxdebug
 
 ENV COMPOSER_VERSION 1.4.1
 
